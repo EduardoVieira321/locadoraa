@@ -1,0 +1,75 @@
+.contato-container {
+    max-width: 600px;
+    margin: 40px auto 80px;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.contato-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #222;
+}
+
+.form-contato label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.form-contato input[type="text"],
+.form-contato input[type="email"],
+.form-contato textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.form-contato input[type="text"]:focus,
+.form-contato input[type="email"]:focus,
+.form-contato textarea:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes button {
+    background-color: #ffcc00;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.botoes button[type="reset"] {
+    background-color: #999;
+    color: white;
+}
+
+.botoes button:hover {
+    background-color: #e6b800;
+}
+
+.botoes button[type="reset"]:hover {
+    background-color: #666;
+}

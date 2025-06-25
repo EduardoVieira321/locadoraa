@@ -1,0 +1,64 @@
+.filmes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.filme {
+    flex: 1 1 calc(20% - 30px);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.filme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.filme img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.filme h3 {
+    margin: 15px 10px 20px 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.filtro-genero   {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filtro {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 0 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.filtro:hover {
+    background-color: #ffcc00;
+    color: #333;
+}

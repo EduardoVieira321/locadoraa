@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Contato - Locadora GuiEduLocates</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.jpg" alt="Logo Locadora" />
+        <h1>Locadora GuiEduLocates</h1>
+        
+        <nav>
+            <a href="main_page.html">Principal</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="trailers.html">Trailers</a>
+            <a href="trilhas_sonoras.html">Trilhas Sonoras</a>
+            <a href="contatos.html">Contatos</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="contato-container">
+            <h2>Fale Conosco</h2>
+            <form class="form-contato" action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required />
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button>Enviar e-mail</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        © Guilherme Rosa e Eduardo Vieira
+    </footer>
+</body>
+</html>
